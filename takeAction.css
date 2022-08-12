@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d1d1d1;
+}
+
+/* Nav Bar colors and design!! CHANGES NAV BAR BACKGROUND */
+
+ /* Modify the background color */
+         
+        .navbar-custom {
+             background-image: linear-gradient(to right, #fd8686, #f5a666, #ffff70, #8bf88b, #7979fb, #c77cfd);
+          maing-top: 0;
+          margin-bottom: 25px;
+          padding: 10px;
+        }
+
+
+/* changes layout from vert to horiz*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block
+}
+
+
+/* changes text/button appearance */
+a {
+   display: block;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #2b0146;
+  
+  /* changes font appearance */
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 18px;
+  
+}
+
+/* header in Nav Bar */
+#mainHeader {
+  font-size: 25px;
+  text-decoration-line: overline underline; 
+  text-decoration-color: #2b0146;
+}
+
+
+/* Headings for page 1 */
+#headOne {
+text-align: center;
+  margin-top: 0;
+  margin-bottom: 15;
+    padding-top: 25;
+    padding-bottom: 50;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+text-decoration-line: underline;
+
+  
+}
+
+#smallerHead {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 25;
+  padding-bottom: 15;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* intro paragraph page 1 */
+#intro {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 30%;
+  padding-bottom: 15;
+  margin-top: 3%;
+  text-align: center;
+  display: block
+  font-size: 30px;
+  background: white;
+  border-style: solid;
+  
+  
+}
+
+
+/*fact generator design*/
+body {
+  text-align: center;
+}
+
+
+/* STYLE TEXT */
+
+
+/* STYLE IMAGES */
+
+/* STYLE BUTTON */
+
+
+
