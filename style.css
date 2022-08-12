@@ -1,0 +1,213 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d1d1d1;
+}
+
+/* Nav Bar colors and design!! CHANGES NAV BAR BACKGROUND */
+
+ /* Modify the background color */
+         
+        .navbar-custom {
+             background-image: linear-gradient(to right, #fd8686, #f5a666, #ffff70, #8bf88b, #7979fb, #c77cfd);
+          maing-top: 0;
+          margin-bottom: 25px;
+          padding: 10px;
+        }
+
+
+/* changes layout from vert to horiz*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block
+}
+
+
+/* changes text/button appearance */
+a {
+   display: block;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #2b0146;
+  
+  /* changes font appearance */
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 18px;
+  
+}
+
+/* header in Nav Bar */
+#mainHeader {
+  font-size: 25px;
+  text-decoration-line: overline underline; 
+  text-decoration-color: #2b0146;
+}
+
+
+/* Headings for page 1 */
+#headOne {
+text-align: center;
+  margin-top: 0;
+  margin-bottom: 15;
+    padding-top: 25;
+    padding-bottom: 50;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+text-decoration-line: underline;
+
+  
+}
+
+#smallerHead {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 25;
+  padding-bottom: 15;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* intro paragraph page 1 */
+#intro {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  border-style: solid;
+  
+}
+
+
+/* add in image styling */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+#imageOne {
+  width: 200px;
+  margin-left: 50%;
+  border-image-width: 0;
+  border-style: dotted;
+  
+
+}
+
+#imageTwo {
+  width: 300px;
+  border-style: dotted;
+  margin-left: 15%;
+}
+
+#imageThree {
+  width: 300px;
+  border-style: dotted;
+  margin-left: 6%;
+}
+
+/*get images in row not column formation*/
+
+
+
+
+/*add in second header section styling*/
+#headTwo {
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 25;
+  padding-bottom: 15;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+  text-decoration-line: underline;
+  
+}
+
+#smallTwo {
+   text-align: center;
+  margin-top: 0;
+  padding-top: 25;
+  padding-bottom: 15;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#issues {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  padding-bottom: 0;
+}
+
+/* style statement image */
+
+#statement {
+  width: 200px;
+  border-style: dotted;
+  margin-left: 135%;
+  margin-bottom: 5%;
+}
+
+/* third header and paragraph woo~~~ */
+#mentalHealth {
+   text-align: center;
+  margin-top: 5;
+  padding-top: 0;
+  padding-bottom: 15;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #7a0000;
+    font-family: Arial, Helvetica, sans-serif;
+  text-decoration-line: underline;
+}
+
+#healthParagraph {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  padding-bottom: 15%;
+}
+
+
+
+
+
